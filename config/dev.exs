@@ -35,8 +35,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :idm_rest_api, IdmRestApi.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "nmaef",
+  password: "geheim",
   database: "idm_rest_api_dev",
   hostname: "localhost",
   pool_size: 10
